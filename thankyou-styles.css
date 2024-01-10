@@ -1,0 +1,16 @@
+html{
+    background: url(https://th.bing.com/th/id/R.22c58fd714ffab455d643991840e8a1b?rik=Z3%2fL%2brJ8DixVJw&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main p{
+    font-size: 30px;
+    margin-left: 40rem;
+    margin-top: 10rem;
+    color: rgba(46, 111, 172, 0.445);
+    background-color: azure;
+    width: 35rem;
+    border: 2px dotted rgb(97, 183, 204);
+    font-family: mv boli;
+    border-radius: 10px;
+}

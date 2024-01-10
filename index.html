@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Ice cream Order Form</h1>
+            <p>Please submit this form to order delicious ice cream</p>
+        </header>
+
+        <main>
+            <form action="thankyou.html" method="GET">
+                <div>
+                    <label for="name">First Name</label> 
+                    <input type="text" id="name"  name="name" required minlength="3"/>
+                </div>
+
+                <div>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required minlength="3" />
+                </div>
+
+                <div>
+                    <label>Type of Ice cream</label>
+
+                    <input type="radio" name="ice cream" id="ice cream" value="ice cream"/>
+                    <label for="Gelato" class="inline-label">Gelato</label>
+
+                    <input type="radio" name="ice cream" id="ice cream" value="ice cream"/>
+                    <label for="Kulfi" class="inline-label">Kulfi</label>
+
+                    <input type="radio" name="" id="ice cream"/>
+                    <label for="Sherbet" class="inline-label" >Sherbet</label>
+
+                    <input type="radio" name="ice cream-choice" id=" Frozen Yogurt"/>
+                    <label for=" Frozen Yogurt" class="inline-label" > Frozen Yogurt</label>
+
+                    <input type="radio" name="ice cream-choice" id=" Soft Serve"/>
+                    <label for=" Soft Serve" class="inline-label" > Soft Serve</label>
+
+                    <input type="radio" name="ice cream-choice" id="Rolled Ice Cream"/>
+                    <label for="Rolled Ice Cream" class="inline-label">Rolled Ice Cream</label>
+                </div>
+
+                <div>
+                    <label>What would you like to add to the Ica cream?</label>
+                    <input type="checkbox" id="fruit" name="add-choice" />
+                    <label for="fruit" class="inline-label">Fruit</label>
+
+                    <input type="checkbox" id="chocolate" name="add-choice" />
+                    <label for="chocolate" class="inline-label">Chocolate</label>
+
+                    <input type="checkbox" id="nuts" name="add-choice" />
+                    <label for="nuts" class="inline-label">Nuts</label>
+                </div>
+
+                <div>
+                    <label for="city">City:</label>
+                    <select id="city">
+                        <option name="city">Select One</option>
+                        <option name="city">Herat</option>
+                        <option name="city">Kabul</option>
+                        <option name="city">Mazar</option>
+                        <option name="city">Ghazni</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="info">Extra information about your order</label>
+                    <textarea id="info"></textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
+
+
+
+
+
+
+
